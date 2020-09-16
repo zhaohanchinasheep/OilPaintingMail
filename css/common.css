@@ -1,0 +1,183 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+/*设置总体header区的样式*/
+.header{
+	margin:25px auto;
+	width:1200px;
+}
+
+.header .menu ul{
+	display: none;
+	position:absolute;
+	width:80px;
+	opacity: 0.5; /*透明度*/
+	background-color:white;
+}
+
+.header .logo{
+	float: left;
+	position: relative;
+}
+
+.header .menu{
+	float:left;
+	position: relative;
+	margin-top:12px;
+	margin-left:16px;
+
+}
+/*用css实现鼠标悬浮显示下拉列表的效果*/
+
+/*.header .menu:hover ul{
+	display: block;
+}*/
+
+.header .menu ul li{
+	list-style:none;
+	margin-top:10px;
+	text-align: center;
+}
+
+.header .menu .menu_title{
+	border-bottom:1px solid black;
+	padding-bottom:12px;
+	width:80px;
+	text-align:center;
+}
+
+.header .menu .menu_title a{
+	text-decoration:none;
+
+}
+
+.header .auth{
+	float:right;
+}
+
+.header .auth ul li{
+	float:left;
+	list-style:none;
+	margin-right:60px;
+	margin-top:15px;
+}
+
+ /*设置总体的banner区的样式*/
+.content{          
+	margin:25px auto;
+	width:1260px;
+}
+
+.content .banner .banner-img{
+	margin-top:30px;
+}
+
+
+.content .img-content ul li{
+	float:left;
+	width:360px;
+	list-style: none;
+	margin:0 60px 60px 0px;
+	margin-top:30px;
+	height:500px;
+	box-shadow: 0 0 5px 3px #ccc;
+	-webkit-box-shadow:2px 2px 5px 3px #ccc; /*谷歌特有的*/
+	-moz-box-shadow:0 0 5px 3px #ccc;
+	background-color:white;
+}
+
+.content .img-content .img-btn{
+	width: 300px;
+}
+
+.content .img-content .img-btn .btn{
+	width: 60px;
+	height: 30px;
+	background-color:red;
+	text-align: center;
+	float:right;
+	border-radius:5px;
+}
+
+.content .img-content .img-btn img{
+	width:30px;
+	height: 20px;
+	margin-top:5px;
+
+}
+
+.content .img-content .img-btn .price{
+	float:left;
+	font-weight:bold;
+	color:red;
+	font-size:20px;
+	margin-left:30px;
+	background-color:white;
+	
+}
+
+.img-content .info h3{
+	font-size:20px;
+	color:red;
+	margin-top:2px;
+	margin-bottom:20px;
+}
+
+.img-content .info p{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.img-content .info{
+	margin-left:30px;
+	margin-right:30px;
+	background-color:white;
+}
+
+.content .page-nav ul li{
+	float:left;
+	list-style: none;
+	margin-right: 15px;
+}
+
+.content .page-nav{
+	width : 1200px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.content .page-nav ul{
+	width: 500px;
+	margin:auto;
+
+}
+
+.content .page-nav .first-page{
+	background-color:#c5c5c5;
+	padding:1px 7px;
+	border-radius:50%;
+}
+
+.footer{
+	width:1200px;
+	height: 100px;
+	margin:60px auto;
+	border-top: 1px solid #cccccc;
+	overflow:hidden;
+}
+
+.footer p{
+	margin-top: 50px;
+	text-align:center;
+	line-height: 50px;
+	margin-right: 100px
+}
+
+.footer span{
+	color:red;
+}
